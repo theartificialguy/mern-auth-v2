@@ -1,0 +1,73 @@
+.uploadAvatarCon {
+  display: flex;
+  gap: inherit;
+  width: 85%;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.avatarHeaderCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.backBtn {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.uploadAvatarTitle {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.uploadAvatarBtnCon {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 85%;
+  align-self: center;
+}
+
+.uploadAvatarBtn {
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 2px;
+  border: 0.89px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  border: none;
+  background: #425eeb;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.avatarCon {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+  .uploadAvatarTitle {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,57 @@
+.navWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+  padding-inline: 1.5rem;
+  background: #29292f;
+  border-bottom: 1px solid #323234;
+}
+
+.navbarRightCon {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.needHelpCon,
+.logoutBtnCon {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #424242;
+  padding-inline: 12px;
+  padding-block: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoutBtnCon {
+  background: #ff3b3b;
+}
+
+.needHelpText {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: #fff;
+}
+
+.titleCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleText {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.logoutBtn {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: #fff;
+}

@@ -1,0 +1,12 @@
+.fpLoaderWrapper {
+  flex: 1;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.loaderGif {
+  width: 250px;
+  height: 200px;
+}
